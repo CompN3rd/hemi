@@ -188,7 +188,7 @@ namespace hemi {
             return dPtr;
         }
 
-    private:
+    protected:
         size_t          nSize;
 
         mutable T       *hPtr;
